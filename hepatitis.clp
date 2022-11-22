@@ -18,7 +18,7 @@
   (node (name unclear) (final-answer "Unclear (possible resolved)"))
   
 
-  (node (name anti-HDV-negative) (question "Anti-HDV negative?") (positive-node hepatitis) (negative-node anti-HBC-positive-3))
+  (node (name anti-HDV-negative) (question "Anti-HDV negative?") (positive-node hepatitis) (negative-node anti-HBc-positive-3))
   (node (name anti-HBc-positive-3) (question "Anti-HBc positive?") (positive-node anti-HBs-positive-2) (negative-node uncertain))
   (node (name anti-HBs-positive-2) (question "Anti-HBs positive?") (positive-node uncertain) (negative-node lgm-anti-HBc-positive))
   (node (name lgm-anti-HBc-positive) (question "lgm Anti-HBc positive?") (positive-node acute) (negative-node chronic))
